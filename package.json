@@ -24,7 +24,7 @@
   "scripts": {
     "autoprefixer": "9.6.0",
     "postcss": "7.0.17",
-    "build:style": "tailwind build src/styles/index.pcss -c tailwind.js -o src/styles/tailwind-pre-build.css",
+    
     "start": "npm run build:style && react-scripts start",
     "build": "npm run build:style && react-scripts build",
     "test": "react-scripts test",
